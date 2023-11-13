@@ -1,0 +1,50 @@
+Permettre au vendeur de recevoir les coordonnes de l'acheteur avec un site de Like ( upvote )
+
+/ A ajouter sur le site : 
+
+Un bouton " je suis interesser " sur chaque jouet (faire une boite mail qui envoies les coordonnes ) 
+
+=> La personne qui like va automatiquement transferer ces infos stockes en BDD a la personne qui a creer le POST ( TOY LIST ) 
+
+
+// A ajouter sur le site : 
+
+Un bouton ( Qui fonctionne pas ) qui permet de report des annonces bizarres 
+
+=> 
+
+/// Chaque jouet a un id ( REFERENCE )
+
+
+Se renseigner sur le benchmark ;site de location ; leboncoin ; site de trock 
+
+
+//// Ajouter sur le site : Un bouton " Search" 
+
+Creer une classe supplementaire qui permet de categoriser les jouets completement ( exemple : Nmbr de joueur / Integrer le PEGI age restrictionJeux solo / societe  Garcon/FIlle / Age / Couleur / Utilitaire / Educatif :Indoor/outdoor )
+
+
+/////
+
+=> BOSSER A FOND L'USER EXEPERIENCE       POLICE ARIAL BLACK         COULEUR BLEU ET ROSE DIRECTION ARTISTIQUE 
+
+fAIRE DES CADRES DE COULEUR ROSE OU BLEUX (GARCON : FILLE) EN FONCTION DE LA CATEGORIE DU JOUET EDUCATIF 
+
+
+
+
+////// L'USER s'inscrit sur le site ,automatiser l'ajout des objets ,possibilités de faire une dispute ,gestion des users de leur produit 
+
+
+///////Pour le Trading card game (? et autre type de jouet ?)  mettre une côte ( valeur par rapport aux autres sites ) des objets pour définir la côte des objets.
+
+
+/////// Arreter la redondance du termes " toy " dans les navbar ou autre pour éviter la redondance et permettre au concept de s'exporter en dehors du jouet 
+
+Ajouter ou mettre en avant dans la navbar la possibilité de don " FREETOYZ ".. ( ? SWAP a Toyz ? =)
+
+
+//////// SImplifier la creation de compte et le systeme d'échange au niveau des infos a devoir produire pour l'échange ou l'inscription ( COPYWRITING ) 
+
+///////// Changer la navbar mettre l'espace cover ???
+

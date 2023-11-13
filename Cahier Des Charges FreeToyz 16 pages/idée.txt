@@ -1,0 +1,6 @@
+Structurer les pages de facon a respecter les marges ( Mise En Page ) ! 
+
+A savoir si on utilise javascript et typescript ! 
+
+
+
