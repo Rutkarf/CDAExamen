@@ -1,0 +1,19 @@
+<!-- search.component.html -->
+<div class="search-container">
+    <input type="text" [(ngModel)]="searchTerm" placeholder="Search for toys">
+    <button (click)="onSearch()">Search</button>
+  
+    <div *ngIf="searchResults && searchResults.length > 0">
+      <h3>Search Results</h3>
+      <ul>
+        <li *ngFor="let result of searchResults">
+          <!-- Display individual search result item -->
+        </li>
+      </ul>
+    </div>
+  
+    <div *ngIf="searchResults && searchResults.length === 0">
+      <p>No results found.</p>
+    </div>
+  </div>
+  

@@ -1,0 +1,18 @@
+ <!-- navbar.component.html -->
+<nav class="navbar">
+  <ul>
+    <li><a routerLink="/" (click)="showToys('educatif')">éducatifs / sensoriels</a></li>
+    <li><a routerLink="/" (click)="showToys('bois')"> bois</a></li>
+    <li><a routerLink="/" (click)="showToys('société')"> société</a></li>
+      <li><a routerLink="/" (click)="showToys('artistiques')"> musicaux / artistiques</a></li>
+      <li><a routerLink="/" (click)="showToys('sport')">plein air / sport</a></li>
+      <li><a routerLink="/" (click)="showToys('electroniques')">Electroniques</a></li>
+    <!-- Ajoute les autres liens avec les bonnes catégories -->
+  </ul>
+
+  <!-- Champ de recherche -->
+  <div class="search-container">
+    <input type="text" placeholder="Search toy or catégorie">
+    <button class="button">Search</button>
+  </div>
+</nav>

@@ -1,0 +1,17 @@
+<div class="edit-profile">
+    <h4>Edit Profile</h4>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" [(ngModel)]="user.name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" [(ngModel)]="user.email" required>
+
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" [(ngModel)]="user.location">
+
+      <!-- Add more fields for editing user information as needed -->
+
+      <button type="submit">Save Changes</button>
+    </form>
+  </div>

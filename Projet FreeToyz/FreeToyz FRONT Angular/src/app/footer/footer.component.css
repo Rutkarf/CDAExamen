@@ -1,0 +1,72 @@
+/* footer.component.css */
+footer {
+  background-image: url('src/assets/upload/CoverCDC.png');
+  background-size: cover; /* Pour ajuster la taille de l'image */
+  background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+  color: #ecf0f1;
+  text-align: center; /* Centre le contenu du footer */
+  font-size: 14px; /* Taille de police */
+  border-top: 2px solid #c6169a; /* Ajoute une bordure en haut du footer */
+  position: relative; /* Position relative pour les éléments enfants positionnés absolument */
+  transition: background-color 0.3s ease-in-out; /* Ajoute une transition de couleur de fond */
+  width: 100%; /* Assure que la navbar occupe toute la largeur de l'écran */
+ 
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.footer-section {
+  max-width: 200px;
+  margin-bottom: 1px;
+  transition: transform 0.3s ease-in-out; /* Ajoute une transition pour l'effet de survol */
+}
+
+.footer-section:hover {
+  transform: scale(1.1); /* Agrandit la section au survol */
+}
+
+.footer-section h6 {
+  color: #3498db;
+  transition: color 0.3s ease-in-out; /* Ajoute une transition de couleur pour le titre */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+  transition: opacity 0.3s ease-in-out; /* Ajoute une transition de l'opacité pour les éléments de la liste */
+}
+
+ul li:hover {
+  opacity: 0.8; /* Réduit légèrement l'opacité au survol */
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out; /* Ajoute une transition de couleur pour les liens */
+}
+
+a:hover {
+  color: #3498db;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  text-align: center;
+  opacity: 0.8; /* Réduit légèrement l'opacité par défaut */
+  transition: opacity 0.3s ease-in-out; /* Ajoute une transition de l'opacité */
+}
+
+.footer-bottom:hover {
+  opacity: 1; /* Restaure l'opacité au survol */
+}

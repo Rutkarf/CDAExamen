@@ -1,0 +1,111 @@
+nav {
+  background-image: url('src/assets/upload/CoverCDC.png');
+  background-size: cover; /* Pour ajuster la taille de l'image */
+  background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+  color: #fff;
+  padding: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 2px solid #16abc6;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6%;
+  height: 10vh;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px; /* Si nécessaire, ajoutez une marge à droite */
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between; /* Distribue les éléments uniformément */
+  align-items: center;
+  flex-grow: 1; /* Fait en sorte que la liste prenne tout l'espace disponible */
+}
+
+.nav-item {
+  padding: 10px; /* Ajustez la marge intérieure selon vos préférences */
+  margin-right: 15px; /* Ajustez l'espacement entre les éléments de la navbar */
+}
+
+
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-item:hover .dropdown-menu a:hover {
+  background-color: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #ecf0f1;
+}
+
+li.active a {
+  border-bottom: 2px solid #fff;
+}
+
+li:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: #333;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.nav-item:hover .dropdown-menu a {
+  opacity: 1;
+}

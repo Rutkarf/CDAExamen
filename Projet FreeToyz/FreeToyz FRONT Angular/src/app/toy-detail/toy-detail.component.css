@@ -1,0 +1,50 @@
+/* toy-detail.component.css */
+
+.toy-detail {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .toy-detail:hover {
+    transform: scale(1.05);
+  }
+  
+  h2 {
+    font-size: 2em;
+    color: #3498db;
+    margin-bottom: 10px;
+  }
+  
+  .toy-image {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  /* Animation pour l'apparition du détail */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .toy-detail {
+    animation: fadeIn 0.5s ease-out;
+    animation-fill-mode: both;
+  }
+  

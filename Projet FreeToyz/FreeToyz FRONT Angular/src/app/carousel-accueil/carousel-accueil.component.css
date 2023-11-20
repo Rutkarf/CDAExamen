@@ -1,0 +1,74 @@
+.carousel-container {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  animation-delay: 1.4s;
+  margin: 20px 20px 20px 20px; /* Ajustement de la marge autour du conteneur du carrousel */
+}
+
+
+
+.toy-card {
+  position: relative; /* Ajout de position relative */
+  z-index: 1; /* Définition d'un niveau de z-index */
+  box-sizing: border-box;
+  width: 200px; /* ou la largeur souhaitée pour chaque carte */
+  margin-right: 15px; /* Marge entre chaque carte, ajuste selon tes préférences */
+  padding: 10px; /* Espace intérieur de la carte, ajuste selon tes préférences */
+  border: 3px solid #ba17a7; /* Bordure de la carte, ajuste selon tes préférences */
+  border-radius: 8px; /* Coins arrondis, ajuste selon tes préférences */
+  text-align: center; /* Centre le contenu à l'intérieur de la carte */
+  display: inline-block; /* Permet aux cartes d'être alignées côte à côte */
+  vertical-align: top; /* Alignement vertical en haut pour s'assurer que toutes les cartes ont la même hauteur */
+  animation: fadeInUp 0.5s ease-in-out; /* Ajoute une animation de fondu au chargement */
+  overflow: hidden; /* Ajout de cette propriété pour gérer le débordement */
+  background-color: #f8f8f8; /* Couleur de fond de la carte */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  transition: box-shadow 0.3s ease-in-out; /* Transition douce de l'ombre */
+}
+
+.toy-card:hover {
+  box-shadow: 0 8px 16px rgba(168, 11, 129, 0.2); /* Effet d'ombre accru au survol */
+  transition: box-shadow 0.3s ease-in-out;/* Animation de l'ombre au survol pour une transition plus douce */
+  transform: scale(1.05);/* Animation d'agrandissement des cartes au survol */
+}
+.toy-card p {
+  color: #666;
+  word-wrap: break-word; /* Permet au texte de passer à la ligne si nécessaire */
+  margin-top: 10px; /* Marge en haut du paragraphe */
+  line-height: 1.4; /* Hauteur de ligne pour un espacement agréable entre les lignes */
+  transition: font-size 0.3s ease-in-out, opacity 0.3s ease-in-out, color 0.3s ease-in-out; /* Ajout de transitions multiples */
+}
+
+/* Animation d'opacité au survol */
+.toy-card:hover p {
+  opacity: 0.8;
+  color: #ba17a7;
+}
+
+.toy-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px; /* Coins arrondis pour l'image, ajuste selon tes préférences */
+  transition: transform 0.3s ease-in-out; /* Ajout de la transition sur l'image pour un effet de zoom fluide */
+  position: relative; /* Ajout de position relative */
+  z-index: 2; /* Définition d'un niveau de z-index supérieur à celui de .toy-card */
+}
+
+.toy-card:hover img {
+  transform: scale(1.1); /* Effet de zoom sur l'image au survol */
+}
+
+
+
+.toy-card h4 {
+  font-size: 18px; /* Taille de la police pour le titre, ajuste selon tes préférences */
+  color: #333; /* Couleur du titre */
+  transition: color 0.3s ease-in-out;
+}
+
+/* Animation de la couleur du titre au survol */
+.toy-card:hover h4 {
+  color: #ba17a7; /* Nouvelle couleur du titre au survol */
+}
+

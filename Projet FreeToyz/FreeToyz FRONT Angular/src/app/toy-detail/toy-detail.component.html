@@ -1,0 +1,9 @@
+<!-- toy-detail.component.html -->
+<div *ngIf="selectedToy" class="toy-detail">
+    <h2>{{ selectedToy.name }}</h2>
+    <img [src]="selectedToy.image" alt="{{ selectedToy.name }} Image" class="toy-image">
+    <p>Description: {{ selectedToy.description }}</p>
+    <p>Owner: {{ selectedToy.owner }}</p>
+    <!-- Add more detailed information about the toy as needed -->
+  </div>
+  

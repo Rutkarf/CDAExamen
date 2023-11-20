@@ -1,0 +1,21 @@
+<!-- user-profile.component.html -->
+<div class="user-profile-container">
+  
+  <h3>User Profile</h3>
+
+  <div class="profile-info">
+    <img src="assets/upload/LogoDetourer.PNG" alt="User Avatar" class="avatar">
+    <div class="user-details">
+      <h4>{{ user.name }}</h4>
+      <p>Email: {{ user.email }}</p>
+      <p>Location: {{ user.location }}</p>
+      <p>Description: {{ user.description }}</p>
+      <!-- Ajoutez plus d'informations sur l'utilisateur au besoin -->
+    </div>
+  </div>
+  <a routerLink="/user-profil-edit" class="btn btn-sm btn-primary">Edit</a>
+
+</div>
+
+
+

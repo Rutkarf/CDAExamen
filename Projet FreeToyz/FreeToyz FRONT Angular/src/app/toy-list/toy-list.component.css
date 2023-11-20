@@ -1,0 +1,70 @@
+/* toy-list.component.css */
+
+.toy-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2em;
+    color: #3498db;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  .toy-card {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .toy-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .toy-card img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  /* Animation pour les éléments de la liste */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  li {
+    animation: fadeInUp 0.5s ease-out;
+    animation-fill-mode: both;
+    animation-delay: 0.1s;
+  }
+  

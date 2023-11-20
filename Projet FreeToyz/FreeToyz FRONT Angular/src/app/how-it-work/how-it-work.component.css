@@ -1,0 +1,61 @@
+h3 {
+  margin-top: 5%;
+  text-align: center;
+  color: #3498db;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+
+}
+
+.how-it-works,
+.Explore,
+.Connect {
+  text-align: center;
+  max-width: 500px; /* Ajustez la largeur selon vos besoins */
+  color: white;
+  padding: 20px;
+  box-sizing: border-box; /* Garantit que le padding ne modifie pas la largeur du conteneur */
+  margin: 10px; /* Ajoutez l'espacement entre les éléments */
+}
+
+.how-it-works {
+  background-color: #3498db;
+}
+
+.Explore {
+  background-color: #db34ca;
+}
+
+.Connect {
+  background-color: #3498db;
+}
+
+/* Ajoutez un style pour le formulaire dans how-it-works si nécessaire */
+.SignUp form {
+  max-width: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Ajustez l'espacement entre les champs selon vos besoins */
+}
+
+/* Ajoutez un style pour le bouton si nécessaire */
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Ajoutez un style pour les paragraphes si nécessaire */
+p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}

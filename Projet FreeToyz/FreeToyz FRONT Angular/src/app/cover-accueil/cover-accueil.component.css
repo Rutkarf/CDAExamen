@@ -1,0 +1,18 @@
+
+.coverAccueil {
+  display: block;
+  flex-direction: column;
+  padding-top: 100px;
+  background-image: url('src/assets/upload/BandeauFreeToyz2.png');
+  background-repeat: no-repeat; /* Répétition de l'image (no-repeat, repeat, repeat-x, repeat-y) */
+    background-size: cover; /* Ajuster la taille de l'image (cover, contain, auto, 100%, etc.) */
+    background-position: center center; /* Position de l'image (left top, center center, right bottom, etc.) */
+    
+}
+
+img {
+  display: block; /* Make sure the image is treated as a block element */
+  margin: 0 auto; /* Auto margin to center the image horizontally */
+  width: 25vw; /* 25% de la largeur de l'écran */
+  height: 25vh; /* 25% de la hauteur de l'écran */
+}

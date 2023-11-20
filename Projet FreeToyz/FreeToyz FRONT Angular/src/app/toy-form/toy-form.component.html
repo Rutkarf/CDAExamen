@@ -1,0 +1,16 @@
+<!-- toy-form.component.html -->
+<form class="toy-form">
+    <h3>{{ formTitle }}</h3>
+  
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" [(ngModel)]="toy.name" required>
+  
+    <label for="description">Description:</label>
+    <textarea id="description" name="description" [(ngModel)]="toy.description" required></textarea>
+  
+    <label for="image">Image URL:</label>
+    <input type="text" id="image" name="image" [(ngModel)]="toy.image" required>
+  
+    <button type="submit" (click)="onSubmit()">{{ submitButtonText }}</button>
+  </form>
+  
